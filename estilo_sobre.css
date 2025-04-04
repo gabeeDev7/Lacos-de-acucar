@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* HEADER */
+
+.logoimg {
+    width: 150px;
+    height: 150px;
+}
+
+.header {
+    background-color: rgba(242, 172, 185, 0.74);
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    margin-right: 60px;
+}
+
+.icons i{
+    color: red;
+}
+
+.header input{
+    width: 800px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacao nav{
+    background-color: #F2ACB9;
+    padding: 10px;
+}
+
+/*FOTO E TXT*/
+
+.cont-sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.img-sobre img{
+    max-width: 200px;
+    }
+
+.txt-sobre{
+    width: 50%;
+}
+
+.txt-sobre h3{
+    color: #aa421c;
+}
+
+.txt-sobre2{
+    width: 50%;
+}
+
+
+.cont-sobre2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+.cont-sobre2 .txt-sobre2 h3{
+    color: #aa421c;
+}
+
+
+.cont-sobre3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.txt-sobre3 {
+    width: 50%;
+}
+
+.img-sobre3 img{
+    max-width: 200px;
+}
+
+.txt-sobre3 h3{
+    color: #aa421c;
+}
+
+
+/*FOOTER*/
+
+footer {
+    margin-top: 100px;
+}
+
+.cont-footer {
+    background-color: #f2acb9;
+}
+
+.cont-footer img{
+    width: 300px;
+    height: 300px;
+}
+
+.lacos-de-acucar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.institucional {
+    display: flex;
+    flex-direction: column;
+}
+
+.institucional h3{
+    margin-bottom: 50px;
+}
+
+.institucional ul{
+    list-style: none;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato ul{
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .header input {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont-sobre,
+    .cont-sobre2,
+    .cont-sobre3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .txt-sobre,
+    .txt-sobre2,
+    .txt-sobre3 {
+        width: 90%;
+    }
+
+    .img-sobre img,
+    .img-sobre3 img {
+        max-width: 150px;
+    }
+
+    .cont-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lacos-de-acucar,
+    .institucional,
+    .contato {
+        width: 90%;
+        text-align: center;
+    }
+}
