@@ -47,6 +47,22 @@ nav ul {
     color: white;
 }
 
+nav li:hover {
+    transform: scale(1.3);
+    transition: 0.2s ease;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 1s ease;
+}
+
+nav a:hover{
+    color: #704f55;
+}
+
 nav a {
     text-decoration: none;
     color: white;
@@ -306,7 +322,7 @@ nav a {
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         padding: 20px;
         gap: 15px;

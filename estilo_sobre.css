@@ -47,6 +47,22 @@ nav ul{
     color: white;
 }
 
+nav li:hover {
+    transform: scale(1.3);
+    transition: 0.2s ease;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 1s ease;
+}
+
+nav a:hover{
+    color: #704f55;
+}
+
 nav a{
     text-decoration: none;
     color: white;
@@ -64,6 +80,10 @@ nav a{
     justify-content: space-around;
     align-items: center;
     margin-top: 40px;
+    background-color: #e5b5bf;
+    width: 100%;
+    border-radius: 35px;
+    padding: 10px;
 }
 
 .img-sobre img{
@@ -88,6 +108,10 @@ nav a{
     justify-content: space-around;
     align-items: center;
     margin-top: 150px;
+    background-color: #e5b5bf;
+    width: 100%;
+    border-radius: 35px;
+    padding: 10px;
 }
 
 
@@ -101,6 +125,10 @@ nav a{
     justify-content: space-around;
     align-items: center;
     margin-top: 150px;
+    background-color: #e5b5bf;
+    width: 100%;
+    border-radius: 35px;
+    padding: 10px;
 }
 
 .txt-sobre3 {
@@ -162,7 +190,7 @@ footer {
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         padding: 20px;
     }
@@ -174,6 +202,7 @@ footer {
 
     nav ul {
         flex-direction: column;
+        gap: 10px;
         align-items: center;
     }
 

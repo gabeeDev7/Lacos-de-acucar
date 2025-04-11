@@ -47,9 +47,21 @@ nav ul{
     color: white;
 }
 
+
+nav li:hover {
+    transform: scale(1.3);
+    transition: 0.2s ease;
+}
+
+
 nav a{
     text-decoration: none;
     color: white;
+    transition: 1s ease;
+}
+
+nav a:hover{
+    color: #704f55;
 }
 
 .navegacao nav{

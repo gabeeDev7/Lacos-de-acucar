@@ -47,6 +47,22 @@ nav ul{
     color: white;
 }
 
+nav li:hover {
+    transform: scale(1.3);
+    transition: 0.2s ease;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 1s ease;
+}
+
+nav a:hover{
+    color: #704f55;
+}
+
 nav a{
     text-decoration: none;
     color: white;
@@ -232,8 +248,8 @@ nav a{
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        gap: 85px;
         padding: 10px;
         text-align: center;
     }
@@ -254,6 +270,7 @@ nav a{
 
     .navegacao nav ul {
         flex-direction: column;
+        gap: 10px;
         align-items: center;
     }
 
